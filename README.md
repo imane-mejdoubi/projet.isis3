@@ -27,3 +27,10 @@ Notre travail s’inscrit dans le cadre (framework) de : «  saas website » sta
 Remarque : Au cours de ce travail nous avons inspiré quelques idées des sources suivantes :
 -	https://www.w3schools.com/html/default.asp
 -	https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/
+
+
+created by :
+Ikram Senoussi : groupe B  isis3
+Imane Mejdoubi : groupe B isi3
+Aminata Mbodj : group B  isi3
+
