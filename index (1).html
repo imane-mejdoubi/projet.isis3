@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="deco.css">
+  <title>Mon Site Web</title>
+  <script>
+     
+    function B1(){
+      A=prompt("saisir le nom du produit que vous avez choisi:")
+    
+    fen1=open("http://www.FITATEC.com","gol","width=900,height=500")
+   
+
+    fen1.document.write("Le produit que vous avez choisi est : "+A+"<br>")
+   
+    }
+    </script>
+</head>
+<body>
+  <!--debut de Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand"> 
+          <a href="#hero"><h1><span style="color: rgb(241, 42, 182)">F</span>ita<span style="color: rgb(243, 38, 38)">T</span>ec</h1></a> 
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">  Home  </a></li>
+            <li><a href="#services" data-after="Service">  Services  </a></li>
+            <li><a href="#projects" data-after="Projects">  Produits  </a></li>
+            <li><a href="#contact" data-after="Contact">  Contact  </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fin de Header-->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Meilleurs<span style="background-color: rgb(255, 53, 194)"></span></h1>
+        <h1>produits<span style="background-color: rgb(241, 158, 63)"></span></h1>
+        <h1>Cosmétiques<span style="background-color:rgb(230, 220, 93)"></span></h1>
+        <br> <br><a href="#projects" type="button" class="cta"> Produits</a> </br> </br>
+      </div>
+    </div>
+  </section>
+  <!-- fin Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p> La société Fitatec est une société anonyme spécialisée dans la vente, la fabrication et l'importation des produits cosmétiques et para-médicaux.<br>
+          La société Fitatec est une société qui présente un lien étroit et sûr entre les producteurs des produits  médicaux et l'utilisateur.<br>
+          Au cour des longues années d'expérience la société Fitatec a pu acquérir une très grande confiance vis-à-vis des marocains, par le  biais du choix minutieux des produits thérapeutiques.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/doodle/48/000000/home.png"/></div>
+          <h2>Service</h2>
+          <p> •> Garantir un choix minutieux des produits. <br> •> Garantir une très grande rapidité de livraison  (24h à 48h)  •> Possibilité de payement à la livraison. <br>
+            •> Satisfait ou remboursé. <br></p>
+        </div>
+        <div class="service-item">
+            <div class="icon"><img src="https://img.icons8.com/doodle/48/000000/home.png"/></div>
+            <h2>information </h2>
+            <p> •> Tous nos produits sont 100% naturels.<br> •> Nos produits sont testés cliniquement.  •> Nos produits n'ont presque aucun effet secondaire.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- fin Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Prod<span>uits</span></h1>
+      </div>
+      <div class="all-projects">
+
+
+
+
+<style>
+
+
+
+body{
+background-image:URL('./img/6.jpg');
+background-size:cover;
+}
+</style>
+</head>
+<body>
+<center><h1 class="title"><Font color=dark> <b>Nos produits </b></Font></h1>
+<h1 class="naturel"><Font color=black >Naturels, uniques et fabriqués au Maroc. Nos produits répondent aux <br>besoins des professionnels.</Font></h1></center><br>
+<form>
+<select onchange="window.open(this.value,'_self')"> ;
+<option value="#prd1">Savon à main</option>
+<option value="#prd2">Shampoing antipelliculaire</option>
+<option value="#prd3">Gel douche</option>
+<option value="#prd4">Savon à main hydratant</option>
+<option value="#prd5">Ecran solaire hydratant</option>
+<option value="#prd6">Fond de teint hydratant et couvrant</option>
+<option value="#prd7">Savon naturel</option>
+<option value="#prd8">Savon Aloe vera</option>
+<option value="#prd9">Creme à main</option>
+<option value="#prd10">Gommage visage</option>
+<option value="#prd11">Deodorant crème</option>
+<option value="#prd12">Crème anti-tâche</option>
+</select><br><br><br>
+</form>
+
+<form id ="#prd1" >
+<center><input Name="gel" type="image" src="./img/Gel.jpg" width=500 height=500 border="3" >
+<h1><Font color=black>Savon à main</h1>
+<h2> Prix : <Font color=crimson> 30dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black >FITATEC a élaboré un savon à main pour vous offrir un moment de plaisir à chaque utilisation, et <br>pour vous aider à nettoyer vos mains et entretenir leur propreté (savon à main naturel).<br>A base végétalienne, entièrement neutre sans huiles de germe de blé ou de noix.</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd2" >
+<center><input Name="shampoing" type="image" src="./img/shampoing.jpg" width=250 height=500 border="3" >
+<h1><Font color=black> Shampoing antipelliculaire </h1>
+<h2> Prix : <Font color=crimson> 35dh </Font></h2></center>  
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>Elaboré par notre Laboratoire ,le Shampoing antipelliculaire est spécialement conçu pour nettoyer vos cheveux , et <br>pour vous aider à avoir des cheveux lisses et propres (shampoing naturel,shampoing oeufs).<br>A base végétarienne , entièrement neutre .</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd3">
+<center><input Name="gel douche" type="image" src="./img/douche.jpg" width=500 height=500 border="3">
+<h1><Font color=black> Gel douche </h1>
+<h2> Prix : <Font color=crimson> 40dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>Formulé sans savon, le gel douche de FITATEC nettoie parfaitement la peau sensible.  <br>D’une grande innocuité, sa formule est garantie sans sulfates, sans parabens et sans allergènes.Enrichi en gel d’aloe vera, il nourrit et protège la peau.  Véritable <br>concentré de douceur, sa texture gel ultra fondante est associée à un parfum gourmand et vitaminé d’ananas pour un moment unique de plaisir et de détente.</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd4" >
+<center><input Name="savon" type="image" src="./img/savon.jpg" width=500 height=500 border="3">
+<h1><Font color=black>Savon à main hydratant </h1>
+<h2> Prix : <Font color=crimson> 30dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>Le savon à main hydratant hydratat, apaise et protege votre peau. Il vous offre un moment de plaisir à chaque utilisation, et <br> vous aide à nettoyer vos mains et entretient leur propreté (savon hydratant) </Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br>
+<form id="prd5">
+<center><input Name="savon" type="image" src="./img/ecran.jpg"  width=500 height=500 border="3">
+<h1><Font color=black> Ecran solaire hydratant </h1>
+<h2> Prix : <Font color=crimson> 99dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>La crème Ecran solaire hydratante est un soin de visage , reconnue pour ses propriétés hydratantes, associées à une très haute protection large spectre contre les Utraviolets longs.<br> Elle hydrate la peau et aide à lutter contre les rides et les tâches solaires. Jour après jour, la peau paraît également plus éclatante et plus souple. <br>Son parfum floral <br>fruité associé à sa texture fondante et nacrée laisse un fini soyeux à la peau.</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd6">
+<center><input Name="savon" type="image" src="./img/fond.jpg" width=500 height=500 border="3">
+<h1><Font color=black>Fond de teint hydratant et couvrant</h1>
+<h2>Prix : <Font color=crimson> 120dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>Enrichi en vitamine A, le fond de teint hydratant et couvrant de FITATEC renforce l’éclat de ton teint tout <br>en hydratant et protégeant la peau.</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br>
+<form id ="prd7">
+<center><input Name="savon naturel" type="image" src="./img/naturel.jpg" width=500 height=500 border="3">
+<h1><Font color=black>Savon naturel</h1>
+<h2> Prix : <Font color=crimson> 20dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>D'origine végétale et d'odeur agréable, le Savon Naturel de FITATEC, permet un<br>nettoyage régulier efficace de tout le corps, tout en renforçant sa<br>protection à chaque lavage. Puissant et concentré, il conserve la peau <br>avec son  aspect naturel et une beauté éclatante.</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd8">
+<center><input Name="savon aloe" type="image" src="./img/aloe.jpg" width=500 height=500 border="3">
+<h1><Font color=black>Savon Aloe vera</h1>
+<h2> Prix : <Font color=crimson> 25dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>Le savon à l'Aloe vera conviendra à de nombreux types de peaux. Ayant le pouvoir de stimuler la production de collagène, il sera un<br>bon remède anti-âge pour régénérer la peau et atténuer rides et ridules et vergetures et sera utilisé pour traiter les imperfections liées<br>à l'âge (rides, ridules, pattes d'oies, rides du lion etc.). Il sera également efficace pour réduire les imperfections et les rougeurs dues à<br>l'acné. En cas de sur-exposition au soleil, de brûlures ou d'eczéma, l'Aloe vera apaisera immédiatement démangeaisons et sensations<br>d'échauffement, grâce à ses propriétés anti-inflammatoires et cicatrisantes.</Font></h3><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd9">
+<center><input Name="creme" type="image" src="./img/creme.jpg"  width=500 height=500 border="3">
+<h1><Font color=black>Crème à main</h1>
+<h2> Prix : <Font color=crimson> 40dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>C’est bien connu, l’aloe vera est miraculeux ! Pour les cheveux ou pour la peau, il est un<br>précieux allié hydratant. Découvrez tous ses bienfaits dans votre crème pour les mains<br>maison  fabriquée avec des ingrédients naturels !</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd10">
+<center><input Name="gommage" type="image" src="./img/gommage.jpg" height=500 border="3">
+<h1><Font color=black>Gommage visage</h1>
+<h2> Prix : <Font color=crimson> 40dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>Le gommage visage d'aloe vera : Nutritif et hydratant, il compense les pertes en eau de la peau et lui apporte<br>vitamines et oligoéléments. Puissant cicatrisant cutané, ce gel stimule la réparation de<br>l'épiderme et améliore la microcirculation. De plus, il soulage les inflammations et les irritations<br>de la peau, et procure un effet tenseur.</Font></h3><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd11">
+<center><input Name="deodorant" type="image" src="./img/deodorant.jpg"  width=500 height=500 border="3">
+<h1><Font color=black>Déodorant Crème</h1>
+<h2> Prix : <Font color=crimson> 40dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=light black>Le Déodorant Crème aide à lutter contre les odeurs tout en douceur grâce à sa formule 100% naturelle.<br>Enrichi en aloe vera, ce déodorant crème saura protéger l'épiderme des peaux les plus sensibles.</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+
+<hr size=2 color=gray><br><br><br>
+<form id ="prd12">
+<center><input Name="anti" type="image" src="./img/tache.jpg" width=500 height=500 border="3">
+<h1><Font color=black>Crème anti-tâche</h1>
+<h2> Prix : <Font color=crimson> 99dh </Font></h2></center>
+<h2><Font color=blue> Description détaillée </Font></h2><br>
+<h2><Font color=black>La crème anti-tâche oléoactive Bio de Cap Cosmetics est une crème éclaircissante de jour et de nuit, pour<br>lutter contre les tâches dues à l’âge et au soleil. Elle est également nourrissante et hydratante grâce<br>au gel d’Aloe Vera, au Bright oléactif, aux Algues brunes, à l’huile d’Argan bio et à l’huile de pâquerette.<br>Votre teint sera unifié et plus éclatant !</Font></h2><br>
+<button type="button" onclick="B1()">Acheter</button><br>
+</form>
+    
+      </div>
+    </div>
+  </section>
+  <!-- fin Projects Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contactez <span>nous</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Numéro</h1>
+            <h2>+212 697 313 618</h2>
+            <h2>+212 641 507 140</h2>
+            <h2>+212 616 892 091</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png"/></div>
+          <div class="contact-info">
+            <h1>E.mail</h1>
+            <h2>senoussi.ikram@gmail.com</h2>
+            <h2>imane.mejdoubi2@gmail.com</h2>
+            <h2>mbodjaaminata22@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h1>Addresse</h1>
+            <h2>Morocco, Oujda, EL Qods </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fin Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span style="color: rgb(102, 248, 44)">F</span>ita<span style="color: rgb(130, 255, 80)">T</span>ec</h1></div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/whatsapp.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Fitatec. autorisé</p>
+    </div>
+  </section>
+  <!-- fin Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>
